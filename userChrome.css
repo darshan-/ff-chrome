@@ -21,27 +21,38 @@
 }
 */
 
+#navigator-toolbox, #nav-bar {
+    background-color: #e6e5fb !important;
+}
+
 .tab-loading-burst {
     /*border-left: 1px solid #ccc !important;
     border-right: 1px solid #ccc !important;*/
 }
 
+/*
 #tabbrowser-tabs .tabbrowser-tab:not([selected]) .tab-loading-burst {
     border: 1px solid #c6a5ff !important;
+}
+*/
+
+#tabbrowser-tabs .tabbrowser-tab .tab-loading-burst {
+    /*border: 1px solid #c6a5ff !important;*/
+    border: 1px solid #9a86ff !important;
 }
 
 #tabbrowser-tabs .tabbrowser-tab[selected] .tab-loading-burst {
     /*background-color: #c595ff !important;*/
-    background-color: #dbbdff !important;
+    background-color: #c6a5ff !important;
 }
 
 #tabbrowser-tabs .tabbrowser-tab:hover:not([selected]) .tab-loading-burst {
-    background-color: #ebddff !important;
+    background-color: #d2d1f9 !important;
 }
 
 #tabbrowser-tabs .tabbrowser-tab:hover[selected] .tab-loading-burst {
     /*background-color: #daccff !important;*/
-    background-color: #c6a5ff !important;
+    background-color: #c2c0ff !important;
 }
 
 .tab-icon-overlay {
